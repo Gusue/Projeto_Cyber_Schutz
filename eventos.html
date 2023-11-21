@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias e Atividades</title>
+    <link rel="stylesheet" type="text/css" href="./eve.css"/>
+    <link rel="stylesheet" type="text/css" href="./button.css"/>
+    <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- for icons  -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!-- bootstrap  -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- for swiper slider  -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+    <!-- fancy box  -->
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+    <!-- custom css  -->
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body class="body-fixed">
+     <!-- start of header  -->
+     <header class="site-header sticky_head">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2">
+                    <div class="header-logo">
+                        <a href="index.html">
+                            <img src="logo_kid.png" width="160" height="36" alt="Logo">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-10">
+                    <div class="main-navigation">
+                        <button class="menu-toggle"><span></span><span></span></button>
+                        <nav class="header-menu">
+                            <ul class="menu food-nav-menu">
+                                <li><a href="index.html#home">Inicio</a></li>
+                                <li><a href="index.html#about">Sobre</a></li>
+                                <li><a href="index.html#menu">Menu</a></li>
+                                <li><a href="index.html#gallery">Galeria</a></li>
+                                <li><a href="#">Noticias</a></li>
+                                <li><a href="index.html#contact">Contato</a></li>
+                                <li><a href="donation.html">Doação</a></li>
+                            </ul>
+                        </nav>
+                        <div class="header-right">
+                            <form action="#" class="header-search-form for-des">
+                                <input type="search" class="form-input" placeholder="Procure Algo...">
+                                <button type="submit">
+                                    <i class="uil uil-search"></i>
+                                </button>
+                            </form>
+                            <a href="javascript:void(0)" class="header-btn header-cart">
+                                <i class="uil uil-lightbulb"></i>
+                                <span class="cart-number">3</span>
+                            </a>
+                            <a href="javascript:void(0)" class="header-btn">
+                                <i class="uil uil-user-md"></i>
+                                
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="botao">
+        
+        <button class="button" style="vertical-align:middle" onclick="changeToEvent()"><span>Notícias</span></button>
+        <button class="button" style="vertical-align:middle" onclick="changeToActivity()"><span>Atividades</span></button>
+    </div>
+    <div class="search">
+            <input id="searchtext" type="text"
+                placeholder="Pesquise aqui!"
+                name="search">
+            <button class="button3 button-atividades inactive" onclick="search('atividades')">
+                <i class="fa fa-search"
+                    style="font-size: 18px;">
+                </i>
+            </button>
+            
+            <button class="button3 button-eventos" onclick="search('eventos')">
+                <i class="fa fa-search"
+                    style="font-size: 18px;">
+                </i>
+            </button>
+    </div>
+    <div class="container-eventos">
+        <section class="eventos section-eventos">
+            <div class="image"><img src="../img/crianca.jpg" alt=""></div>
+            <div class="info">
+                <div class="data"><p>2022<br>Nov<br>27</p></div>
+                <div class="info2">
+                    <h2 class="h2-eventos">Congresso sobre a Importância da Educação</h2>
+                    <p>Congresso sobre educação e a importância na sociedade.</p>
+                </div>
+            </div>
+        </section>
+        <section class="eventos section-eventos">
+            <div class="image"><img src="../img/novas-tecnologias.webp" alt=""></div>
+            <div class="info">
+                <div class="data"><p>2022<br>Nov<br>27</p></div>
+                <div class="info2">
+                    <h2 class="h2-eventos">Evento sobre novas tecnologias</h2>
+                    <p>Apresentações de novas tecnologias no mercado.</p>
+                </div>
+            </div>
+        </section>
+        <section class="eventos section-eventos">
+            <div class="image"><img src="../img/jovens-estudando-juntos.jpg" alt=""></div>
+            <div class="info">
+                <div class="data"><p>2022<br>Nov<br>27</p></div>
+                <div class="info2">
+                    <h2 class="h2-eventos">Nova disciplina adicionada na grade!</h2>
+                    <p>Confira a nova atividade disponível e se matrícule.</p>
+                </div>
+            </div>
+        </section>
+        <section class="eventos section-eventos">
+            <div class="image"><img src="../img/crianca-triste.jpg" alt=""></div>
+            <div class="info">
+                <div class="data"><p>2022<br>Nov<br>27</p></div>
+                <div class="info2">
+                    <h2 class="h2-eventos">Palestra sobre abuso ao vunerável</h2>
+                    <p>Saiba mais sobre como previnir possíveis perigos...</p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="container-atividades inactive">
+        <section class="atividades section-atividades">
+            <div class="image atividades"><img src="../img/pintura.jpg" alt=""></div>
+            <div class="info atividades">
+                <div class="info2 atividades">
+                    <p>24 Nov, 2022</p>
+                    <h2 class="h2-atividades">Pintura</h2>
+                    <p>Ensinando sobre cores e formatos e ajudando a cordenação motora das crianças.</p>
+                </div>
+            </div>
+            <div class="botao2">
+                <button class="button2">Participe!</button>
+            </div>
+        </section>
+        <section class="atividades section-atividades">
+            <div class="image atividades"><img src="../img/livro.jpg" alt=""></div>
+            <div class="info atividades">
+                <div class="info2 atividades">
+                    <p>24 Nov, 2022</p>
+                    <h2 class="h2-atividades">Clube de Leitura</h2>
+                    <p>Livros disponiveis para a leitura e reuniões influenciando debates sobre as obras.</p>
+                </div>
+            </div>
+            <div class="botao2">
+                <button class="button2">Participe!</button>
+            </div>
+        </section>
+        <section class="atividades section-atividades">
+            <div class="image atividades"><img src="../img/ginastica.jpg" alt=""></div>
+            <div class="info atividades">
+                <div class="info2 atividades">
+                    <p>24 Nov, 2022</p>
+                    <h2 class="h2-atividades">Ginástica</h2>
+                    <p>Ensinando técnicas de alogamento e ritmo que ajudem na flexibilidade e cordenação.</p>
+                </div>
+            </div>
+            <div class="botao2">
+                <button class="button2">Participe!</button>
+            </div>
+        </section>
+        <section class="atividades section-atividades">
+            <div class="image atividades"><img src="../img/informatica.webp" alt=""></div>
+            <div class="info atividades">
+                <div class="info2 atividades">
+                    <p>24 Nov, 2022</p>
+                    <h2 class="h2-atividades">Informática</h2>
+                    <p>Ajudam a desenvolver formas corretas no uso do computador ou tablet.</p>
+                </div>
+            </div>
+            <div class="botao2">
+                <button class="button2">Participe!</button>
+            </div>
+        </section>
+        <section class="atividades section-atividades">
+            <div class="image atividades"><img src="../img/Desenho.jpg" alt=""></div>
+            <div class="info atividades">
+                <div class="info2 atividades">
+                    <p>24 Nov, 2022</p>
+                    <h2 class="h2-atividades">Desenho</h2>
+                    <p>Incentivando a criatividade e ensinando perspectiva e noções de espaço.</p>
+                </div>
+            </div>
+            <div class="botao2">
+                <button class="button2">Participe!</button>
+            </div>
+        </section>
+        <section class="atividades section-atividades">
+            <div class="image atividades"><img src="../img/mark-digital.webp" alt=""></div>
+            <div class="info atividades">
+                <div class="info2 atividades">
+                    <p>24 Nov, 2022</p>
+                    <h2 class="h2-atividades">Marketing Digital</h2>
+                    <p>Ensinando estratégias e ações  e conceitos para atrair negócios.</p>
+                </div>
+            </div>
+            <div class="botao2">
+                <button class="button2">Participe!</button>
+            </div>
+        </section> 
+    </div>
+    <!-- footer starts  -->
+    <footer class="site-footer" id="contact">
+        <div class="bottom-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2022 <span class="name">Cedeca</span> Todos os direitos reservados.
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+                <button class="scrolltop"><i class="uil uil-angle-up"></i></button>
+                
+            </div>
+            
+        </div>
+
+        
+    </footer>
+    <script src="eve.js"></script>
+    <script src="search.js"></script>
+</body>
+</html>

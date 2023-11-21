@@ -1,0 +1,62 @@
+.donation {
+    padding-top: 150px;
+    text-align: center;
+}
+.donation h2{
+    margin-top: 50px;
+}
+.donation p{
+    margin-top: 50px;
+}
+.donation h3{
+    margin-top: 50px;
+}
+.imagem {
+    height: 30vw;
+    width: 50%;
+}
+.imagem img{
+    height: 100%;
+    width: 100%;
+}
+.Doacao{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 10rem;
+}
+.pag img{
+    height: 100%;
+    width: 100%;
+}
+.pag{
+    height: 5vw;
+    width: 40%;
+    margin: auto;
+}
+.button-doe{
+    background-color: #f5aa09; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+}
+.button-doe button{
+    margin: auto;
+    display:block;
+    margin-bottom: 2rem; 
+    transform: scale(1.03);
+  }
+  .button-doe:hover{
+      transition: 00.4s;
+      background-color: rgb(248, 199, 66);
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 15px 30px 0 rgba(0,0,0,0.19);
+  }
