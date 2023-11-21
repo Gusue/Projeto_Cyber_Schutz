@@ -106,7 +106,7 @@ ul {
 }
 
 .main-navigation .menu li a:hover, .main-navigation .menu li .active-menu, .main-navigation .menu .sub-menu li .active-sub-menu {
-    color: #ff8243;
+    color: #1414b8;
     background: #f3f3f5;
     box-shadow: inset 8px 8px 12px #e2e2e2, inset -8px -8px 12px #ffffff;
 }
@@ -144,7 +144,7 @@ ul {
     background: #ffffff;
     font-size: 12px;
     border: 1px solid #bfbfbf;
-    color: #ff8243;
+    color: #1414b8;
 }
 
 .header-btn:hover {
@@ -202,7 +202,7 @@ ul {
 }
 
 .uil {
-    color: #ff8243;
+    color: #1414b8;
 }
 
 @media screen and (min-width: 992px) {
@@ -305,7 +305,7 @@ ul {
         display: block;
         width: 100%;
         height: 4px;
-        background: #ff8243;
+        background: #1414b8;
         margin-bottom: 5px;
         transition: 0.3s;
         border-radius: 5px;
@@ -368,7 +368,7 @@ ul {
         margin: 0;
     }
     .main-navigation .menu .sub-menu li a {
-        color: #ff8243;
+        color: #1414b8;
     }
     .header-btn.header-cart {
         display: none;
@@ -528,7 +528,7 @@ ul {
 }
 
 .h1-title span {
-    color: #ff8243;
+    color: #1414b8;
     background-image: linear-gradient(0deg, rgb(13 13 37 /8%), rgb(13 13 37 /8%));
     background-size: 100% 15px;
     background-position: 0 90%;
@@ -619,7 +619,7 @@ p {
     box-shadow: 9px 9px 12px #e4e4e4, -9px -9px 12px #ffffff;
     padding: 3px 20px;
     border-radius: 60px;
-    color: #ff8243;
+    color: #1414b8;
     font-size: 14px;
 }
 
@@ -639,7 +639,7 @@ p {
     position: relative;
     overflow: hidden;
     width: 100%;
-    height: 55vh;
+    height: 45vh;
     min-height: 400px;
     background-size: cover;
     background-position: center;
@@ -698,7 +698,7 @@ p {
 }
 
 ::-webkit-scrollbar-thumb {
-    background: #ff8243;
+    background: #1414b8;
     border-radius: 10px;
 }
 
@@ -952,7 +952,7 @@ p {
     margin-bottom: 25px;
     background: #f3f3f5;
     box-shadow: 9px 9px 12px #b2b2b3, -9px -9px 12px #ffffff;
-    color: #ff8243;
+    color: #1414b8;
 }
 
 .call-now a {
@@ -1115,7 +1115,7 @@ p {
 }
 
 .social-icon ul li a:hover {
-    background: #ff8243;
+    background: #1414b8;
 }
 
 .social-icon ul li a:hover i {
@@ -1214,7 +1214,7 @@ p {
     content: "\f005\f005\f005\f005\f005";
     font-family: "Font Awesome 5 Pro";
     font-weight: 900;
-    color: #ff8243;
+    color: #1414b8;
     letter-spacing: 4px;
 }
 
@@ -1268,7 +1268,7 @@ p {
 }
 
 .blog-text .h4-title:hover {
-    color: #ff8243;
+    color: #1414b8;
 }
 
 .blog-date {
@@ -1354,7 +1354,7 @@ p {
 }
 
 .sec-btn.primary-btn {
-    background: linear-gradient(145deg, #e26a2c, #ff8243);
+    background: linear-gradient(145deg, #e26a2c, #1414b8);
     color: #ffff;
     border: none;
     box-shadow: 4px 4px 8px #9e9e9e, -4px -4px 8px #ffffff;
@@ -1401,7 +1401,7 @@ p {
 }
 
 .footer-menu ul li a:hover, .footer-menu ul li .footer-active-menu {
-    color: #ff8243;
+    color: #1414b8;
 }
 
 .footer-menu ul li {
@@ -1426,7 +1426,7 @@ p {
 }
 
 .name {
-    color: #ff8243;
+    color: #1414b8;
     font-weight: bold;
 }
 
@@ -1442,7 +1442,7 @@ p {
     border-radius: 50%;
     background: #f3f3f5;
     box-shadow: 9px 9px 12px #b2b2b3, -9px -9px 12px #ffffff;
-    color: #ff8243;
+    color: #1414b8;
     font-size: 26px;
     transition: 0.8s cubic-bezier(0.22, 0.78, 0.45, 1.02);
     border: none;
